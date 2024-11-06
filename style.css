@@ -41,15 +41,15 @@ a:active {
 }
 
 .main {
-    background-color: peru;
+
 }
 
 .lightTheme {
-    background-color: peru;
+    background-color: rgb(209, 209, 209);
 }
 
 .darkTheme {
-    background-color: rgb(80, 45, 9);
+    background-color: rgb(242, 121, 0);
 }
 
 .welcoming {
