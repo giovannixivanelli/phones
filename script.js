@@ -23,12 +23,14 @@ english.addEventListener('click', function (e) {
     welcomeText.textContent = 'Welcome to our site!';
     select__language.textContent = 'Select the language'
     contentText.textContent = 'Are you looking for the perfect smartphone? We offer a wide selection of new and certified iPhones at the best prices! Discover cutting-edge technology, stylish design, and reliable performance – all in one device.'
+    changeTheme.textContent = 'Change theme'
 });
 
 spanish.addEventListener('click', function (e) {
     welcomeText.textContent = '¡Bienvenido/a nuestro sitio!';
     select__language.textContent = 'Elija la lengua';
     contentText.textContent = '¿Estás buscando el smartphone perfecto? ¡Ofrecemos una amplia selección de iPhones nuevos y certificados a los mejores precios! Descubre la tecnología de vanguardia, un diseño elegante y un rendimiento confiable, todo en un solo dispositivo.'
+    changeTheme.textContent = 'Cambiar color';
 });
 
 
