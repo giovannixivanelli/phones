@@ -7,6 +7,7 @@ let changeTheme = document.querySelector('.theme');
 let mainTheme = document.querySelector('.main');
 let contentText = document.querySelector('.content__text');
 
+
 changeTheme.addEventListener("click", function () {
     mainTheme.style.backGround = 'Yellow';
 });

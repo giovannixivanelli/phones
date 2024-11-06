@@ -1,16 +1,29 @@
+/* Общие стили */
 * {
     margin: 0;
     padding: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.header{
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:active {
+    color: white;
+}
+
+/* Основные стили */
+.header {
     height: 100px;
     background-color: black;
     display: flex;
     justify-content: end;
     align-items: center;
 }
-.theme{
+
+.theme {
     width: 120px;
     height: 50px;
     margin-right: 50px;
@@ -19,24 +32,27 @@
     border: none;
     outline: none;
     background-color: white;
-    color: blacks;
+    color: black;
 }
-.theme:active{
+
+.theme:active {
     background-color: rgb(33, 33, 33);
     color: white;
 }
-.main{
+
+.main {
     background-color: peru;
 }
+
 .lightTheme {
-    background-color:  peru;
-}
-.darkTheme{
-    background-color:  rgb(80, 45, 9);
+    background-color: peru;
 }
 
-.welcoming{
+.darkTheme {
+    background-color: rgb(80, 45, 9);
+}
 
+.welcoming {
     font-size: 40px;
     font-weight: 800;
     display: flex;
@@ -45,25 +61,30 @@
     box-sizing: border-box;
     padding: 20px;
 }
-.content{
+
+.content {
     display: flex;
     padding: 10px 200px;
     gap: 50px;
     justify-content: center;
     align-items: center;
 }
-.man__picture{
+
+.man__picture {
     width: 400px;
     border-radius: 50%;
 }
-.content__text{
+
+.content__text {
     width: 400px;
     font-size: 20px;
 }
-.footer{
+
+.footer {
     background-color: purple;
 }
-.language__section{
+
+.language__section {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -72,11 +93,13 @@
     font-size: 25px;
     font-weight: 600;
 }
-.languages{
+
+.languages {
     display: flex;
     gap: 20px;
 }
-.button{
+
+.button {
     border: none;
     outline: none;
     background-color: rgb(255, 255, 255);
@@ -87,11 +110,185 @@
     justify-content: center;
     align-items: center;
 }
-.button:active{
+
+.button:active {
     background-color: black;
     color: white;
 }
-.flag{
+
+.flag {
     width: 20px;
     padding-right: 5px;
+}
+
+/* Адаптивные стили для мобильных устройств */
+
+/* Для экранов шириной до 425px */
+@media (max-width: 425px) {
+    .header {
+        height: 80px;
+        justify-content: center;
+    }
+
+    .theme {
+        width: 100px;
+        height: 40px;
+        margin-right: 20px;
+        font-size: 14px;
+    }
+
+    .welcoming {
+        font-size: 30px;
+        padding: 15px;
+    }
+
+    .content {
+        flex-direction: column;
+        padding: 10px;
+        gap: 30px;
+    }
+
+    .man__picture {
+        width: 200px;
+    }
+
+    .content__text {
+        width: 100%;
+        font-size: 18px;
+    }
+
+    .footer {
+        padding: 10px;
+    }
+
+    .language__section {
+        font-size: 20px;
+        gap: 15px;
+    }
+
+    .languages {
+        gap: 15px;
+    }
+
+    .button {
+        width: 90px;
+        height: 25px;
+        font-size: 14px;
+    }
+
+    .flag {
+        width: 18px;
+    }
+}
+
+/* Для экранов шириной до 375px */
+@media (max-width: 375px) {
+    .header {
+        height: 70px;
+    }
+
+    .theme {
+        width: 90px;
+        height: 35px;
+        margin-right: 10px;
+        font-size: 13px;
+    }
+
+    .welcoming {
+        font-size: 25px;
+    }
+
+    .content {
+        flex-direction: column;
+        padding: 5px;
+        gap: 25px;
+    }
+
+    .man__picture {
+        width: 100px;
+    }
+
+    .content__text {
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .footer {
+        padding: 5px;
+    }
+
+    .language__section {
+        font-size: 18px;
+        gap: 12px;
+    }
+
+    .languages {
+        gap: 12px;
+    }
+
+    .button {
+        width: 80px;
+        height: 22px;
+        font-size: 13px;
+    }
+
+    .flag {
+        width: 16px;
+    }
+}
+
+/* Для экранов шириной до 320px */
+@media (max-width: 320px) {
+    .header {
+        height: 60px;
+    }
+
+    .theme {
+        width: 80px;
+        height: 30px;
+        margin-right: 5px;
+        font-size: 12px;
+    }
+
+    .welcoming {
+        font-size: 20px;
+    }
+
+    .content {
+        flex-direction: column;
+        padding: 5px;
+        gap: 20px;
+    }
+
+    .man__picture {
+        width: 100px;
+    }
+
+    .content__text {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .footer {
+        padding: 5px;
+    }
+
+    .language__section {
+        font-size: 16px;
+        gap: 10px;
+    }
+
+    .languages {
+        gap: 10px;
+    }
+
+    .button {
+        width: 70px;
+        height: 20px;
+        font-size: 12px;
+    }
+
+    .flag {
+        width: 14px;
+    }
 }
