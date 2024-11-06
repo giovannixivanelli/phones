@@ -20,7 +20,6 @@ russian.addEventListener('click', function (e) {
     contentText.textContent = 'Ищете идеальный смартфон? Мы предлагаем широкий выбор новых и сертифицированных айфонов по лучшим ценам! Откройте для себя передовые технологии, стильный дизайн и надежную работу – все это в одном устройстве.'
     changeTheme.textContent = 'Сменить тему';
     changeImage.src = 'photos/man-1.png';
-    changeImage.style.height = '400px';
 });
 
 english.addEventListener('click', function (e) {
