@@ -17,6 +17,7 @@ russian.addEventListener('click', function (e) {
     welcomeText.textContent = 'Добро пожаловать на наш сайт!';
     select__language.textContent = 'Выберите язык'
     contentText.textContent = 'Ищете идеальный смартфон? Мы предлагаем широкий выбор новых и сертифицированных айфонов по лучшим ценам! Откройте для себя передовые технологии, стильный дизайн и надежную работу – все это в одном устройстве.'
+    changeTheme.textContent = 'Сменить тему';
 });
 
 english.addEventListener('click', function (e) {
