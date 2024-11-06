@@ -17,13 +17,14 @@ russian.addEventListener('click', function (e) {
     welcomeText.textContent = 'Добро пожаловать на наш сайт!';
     select__language.textContent = 'Выберите язык'
     contentText.textContent = 'Ищете идеальный смартфон? Мы предлагаем широкий выбор новых и сертифицированных айфонов по лучшим ценам! Откройте для себя передовые технологии, стильный дизайн и надежную работу – все это в одном устройстве.'
+    changeTheme.textContent = 'Сменить тему';
 });
 
 english.addEventListener('click', function (e) {
     welcomeText.textContent = 'Welcome to our site!';
     select__language.textContent = 'Select the language'
     contentText.textContent = 'Are you looking for the perfect smartphone? We offer a wide selection of new and certified iPhones at the best prices! Discover cutting-edge technology, stylish design, and reliable performance – all in one device.'
-    changeTheme.textContent = 'Change theme'
+    changeTheme.textContent = 'Change theme';
 });
 
 spanish.addEventListener('click', function (e) {
